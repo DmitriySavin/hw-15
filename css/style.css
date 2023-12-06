@@ -1,3 +1,48 @@
-.item {
-    order: 1;
+.container {
+    width: 1000px;
+}
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 20px 30px;
+    border-top-right-radius: 20px 30px;
+    overflow: hidden;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    
+}
+.item1 {
+padding: 15px;
+flex-grow: 1.5;
+flex-basis: 350px;
+background-color: aqua;
+}
+.item2 {
+padding: 15px;
+flex-grow: 1.5;
+flex-basis: 250px;
+background-color: blue;
+order: 4;
+}
+.item3 {
+padding: 15px;
+flex-grow: 1.5;
+flex-basis: 250px;
+background-color: red;
+order: 3;
+}
+.item4 {
+padding: 15px;
+flex-grow: 1.5;
+flex-basis: 250px;
+background-color: forestgreen;
+order: 5;
+}
+.item5 {
+padding: 15px;
+flex-grow: 1.5;
+flex-basis: 350px;
+background-color: pink;
 }
